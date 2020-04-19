@@ -25,7 +25,7 @@ const AppView = withRouter(props => {
   const pageView = (
     <React.Fragment>
       <header>
-        <img src={Logo} alt="" />
+          <a href={"/"}><img src={Logo} alt="" href={"/"} /></a>
       </header>
       {/* <Router /> */}
 
