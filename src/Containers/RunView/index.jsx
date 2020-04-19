@@ -29,7 +29,7 @@ const RunView = () => {
     const payload = {
       code: 'string',
       language: selectedEnv,
-      name: 'string'
+      name: 'string' + interpretedData.slice(-1)[0]
     }
     runCodeAPI(payload)
   }
@@ -45,7 +45,7 @@ const RunView = () => {
             Looks like you're ready to run your code"
           />
           <div className="code-preview">
-            {interpretedData.map(el => (
+            {interpretedData.slice(0,-1).map(el => (
               <div>{el}</div>
             ))}
           </div>

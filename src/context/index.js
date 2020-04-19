@@ -68,11 +68,16 @@ export const AppState = ({ children }) => {
     setPageLoader(true)
     const apiUrl = `${baseUrl}/code/compile`
     setApiError(false)
+    var random = Math.round(Math.random()*1000)
+    payload.name = 'string' + random
     appAxiosInstance(apiUrl, 'post', false, payload)
       .then(res => {
         if (res) {
           setPageLoader(false)
           res.data = res.data.toString().split(/\n/)
+          res.data.push(random)
+          if (selectedEnv === 'JS')
+              res.data = res.data.splice(0, res.data.length-1)
           setInterpretedData(res.data)
           updateCodeFlag(false)
           if (payload.language === 'JS') {
