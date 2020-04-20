@@ -35,7 +35,7 @@ export const AppState = ({ children }) => {
   const [apiErrorMessage, setApiErrorMessage] = useState([])
   const [pageLoader, setPageLoader] = useState(false)
   // const [dataUri, setDataUri] = useState('')
-  const baseUrl = 'http://localhost:9080'
+  const baseUrl = 'http://127.0.0.1:9080'
   const [selectedEnv, setSelectedEnv] = useState('C')
   // const [compileFailed, setCompileFailed] = useState(false)
 

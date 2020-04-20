@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12a3923c-d7e9-4063-94f5-50e9ef79aa90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.aae5a3aa.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/20cd5e79d1f6fbbf8954d68b92efdb12.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/content-v2/sha512/b0/fe/3a08fc952763c95e94bc46ae0478a26a30851837d6780159b117cc4c4b004f96c10465a83617aaac31569a5c4be42908ca94cfad5e9e56dd58ca333d7b72" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/terser-webpack-plugin/index-v5/e1/38/b83d22acbae6c3eb8ef44ceeaa0d2b46737df30422583c6db128077cacf2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FileUploadButton/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FileUploadButton/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.92773495ab04beb40b055b5159874e38.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/precache-manifest.a86a37f39345541c01dbbb3be9b8904e.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.f54627be.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.f54627be.chunk.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/static/js/main.aae5a3aa.chunk.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +69,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="631" y="268" width="724" height="568" key="find.popup" timestamp="1587384004808">
+    <state x="631" y="268" width="724" height="568" key="find.popup" timestamp="1587384999043">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="631" y="268" width="724" height="568" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1587384004808" />
+    <state x="631" y="268" width="724" height="568" key="find.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1587384999043" />
     <state x="656" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1587329301616">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
